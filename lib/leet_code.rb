@@ -1,5 +1,4 @@
 module LeetCode
-
   # Question 169
   # @param {Integer[]} nums
   # @return {Integer}
@@ -84,14 +83,10 @@ module LeetCode
   def wiggle_sort(nums)
     sorted = nums.sort.reverse
     j = nums.size / 2
-    (0..nums.size - 1).step(2).each do |i|
-      nums[i] = sorted[j]
-      j += 1
-    end
-    j = 0
-    (1..nums.size - 1).step(2).each do |i|
-      nums[i] = sorted[j]
-      j += 1
+    k = 0
+    (0..nums.size - 1).each do |i|
+      nums[i] = i.even? ? sorted[j] : sorted[k]
+      i.even? ? j += 1 : k += 1
     end
   end
 
@@ -136,7 +131,26 @@ module LeetCode
     global_max
   end
 
+  # Question 134: Gas Station
+  # @param {Integer[]} gas
+  # @param {Integer[]} cost
+  # @return {Integer}
+  def can_complete_circuit(gas, cost)
+    gas_left = gas_required = start = 0
+    gas.each do |g|
+      gas_left += g - cost[gas.index(g)]
+      next if gas_left >= 0
+      start = gas.index(g) + 1
+      gas_required -= gas_left
+      gas_left = 0
+    end
+    gas_left >= gas_required ? start : -1
+  end
 end
 
 leetcode = Class.new { extend LeetCode }
-leetcode.max_sub_array([-2,1,-3,4,-1,2,1,-5,4])
+leetcode.max_sub_array([-2, 1, -3, 4, -1, 2, 1, -5, 4])
+
+a_array = [1, 2, 3]
+b_array = [4, 5, 6]
+p a_array.zip(b_array)
