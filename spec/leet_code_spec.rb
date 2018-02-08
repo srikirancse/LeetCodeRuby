@@ -52,4 +52,14 @@ describe 'LeetCode' do
       expect(multiply(a, b)).to eq(result)
     end
   end
+
+  describe '#search' do
+    let(:a) { [3, 1] }
+    let(:b) { 1 }
+    let(:result) { 1 }
+
+    it 'returns correct value on given input' do
+      expect(search(a, b)).to eq(result)
+    end
+  end
 end

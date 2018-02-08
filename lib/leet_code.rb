@@ -516,6 +516,49 @@ module LeetCode
     min_max[1] = [min_max[1], col + 1].max
   end
 
+  # Question 680: Valid Palindrome 2
+  # @param {String} s
+  # @return {Boolean}
+  def valid_palindrome(s)
+    l = 0
+    r = s.size - 1
+    while l < r
+      return palindrome?(s, l, r - 1) || palindrome?(s, l + 1, r) if s[l] != s[r]
+      l += 1
+      r -= 1
+    end
+    true
+  end
+
+  def palindrome?(s, l, r)
+    while l < r
+      return false if s[l] != s[r]
+      l += 1
+      r -= 1
+    end
+    true
+  end
+
+  # Question 33. Search in rotated sorted array
+  # @param {Integer[]} nums
+  # @param {Integer} target
+  # @return {Integer}
+  def search(nums, target)
+    l = 0
+    r = nums.size - 1
+    while l <= r
+      mid = (l + r) / 2
+      return mid if nums[mid] == target
+      go_right?(nums, mid, l, r, target) ? l = mid + 1 : r = mid - 1
+    end
+    -1
+  end
+
+  def go_right?(nums, mid, l, r, target)
+    nums[mid] < target && (nums[r] >= target || nums[r] < nums[mid]) ||
+      (nums[mid] >= target && (nums[l] > target && nums[mid] >= nums[l]))
+  end
+
 end
 
 
