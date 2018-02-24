@@ -1,3 +1,5 @@
+require 'set'
+
 module LeetCode
   # Question 169
   # @param {Integer[]} nums
@@ -559,6 +561,150 @@ module LeetCode
       (nums[mid] >= target && (nums[l] > target && nums[mid] >= nums[l]))
   end
 
+  # Question 200: Number of islands
+  # @param {Character[][]} grid
+  # @return {Integer}
+  def num_islands(grid)
+    rows = grid.length
+    return 0 if rows.zero?
+    cols = grid[0].length
+    count = 0
+    (0..rows - 1).each do |i|
+      (0..cols - 1).each do |j|
+        if grid[i][j] == '1'
+          sink_dfs(grid, i, j, rows, cols, [[1, 0], [-1, 0], [0, 1], [0, -1]])
+          count += 1
+        end
+      end
+    end
+    count
+  end
+
+  def sink_dfs(grid, i, j, rows, cols, delta)
+    return if i < 0 || j < 0 || i >= rows || j >= cols || grid[i][j] != '1'
+    grid[i][j] = '0'
+    delta.each { |d| sink_dfs(grid, i + d[0], j + d[1], rows, cols, delta) }
+  end
+
+  # Question 694: Number of distinct islands
+  # @param {Integer[][]} grid
+  # @return {Integer}
+  def num_distinct_islands(grid)
+    rows = grid.length
+    return 0 if rows.zero?
+    cols = grid[0].length
+    islands = Set.new
+    (0..rows - 1).each do |i|
+      (0..cols - 1).each do |j|
+        island = []
+        if sink_dfs_694(grid, i, j, i, j, rows, cols, [[0, 1], [1, 0], [0, -1], [-1, 0]], island)
+          islands.add(island)
+        end
+      end
+    end
+    islands.length
+  end
+
+  def sink_dfs_694(grid, i0, j0, i, j, rows, cols, delta, island)
+    return false if i < 0 || j < 0 || i >= rows || j >= cols || grid[i][j] <= 0
+    grid[i][j] *= -1
+    island << [i - i0, j - j0]
+    delta.each { |d| sink_dfs_694(grid, i0, j0, i + d[0], j + d[1], rows, cols, delta, island) }
+    true
+  end
+
+  # Question 161: One Edit distance
+  # @param {String} s
+  # @param {String} t
+  # @return {Boolean}
+  def is_one_edit_distance(s, t)
+    return false if (s.length - t.length).abs > 1
+    return one_edit?(s, t) if s.length == t. length
+    if s.length < t.length
+      temp = s
+      s = t
+      t = temp
+    end
+    one_del?(s, t)
+  end
+
+  def one_edit?(s, t)
+    diff = 0
+    (0..s.length - 1).each do |i|
+      diff += 1 if s[i] != t[i]
+    end
+    diff == 1
+  end
+
+  def one_del?(s, t)
+    (0..s.length - 1).each do |i|
+      return s[i..-1] == t[i - 1..-1] if s[i] != t[i]
+    end
+  end
+
+  # Question 139: Word Break
+  # @param {String} s
+  # @param {String[]} word_dict
+  # @return {Boolean}
+  def word_break(s, word_dict)
+    word_dict_set = Set.new
+    word_dict.each { |word| word_dict_set.add(word) }
+
+    return true if word_dict_set.include?(s)
+
+    (0..s.length - 1).each do |i|
+      return true if word_dict_set.include?(s[0..i]) && word_dict_set.include?(s[i + 1..-1])
+    end
+
+    false
+  end
+
+  # Question 443: String Compression
+  # @param {Character[]} chars
+  # @return {Integer}
+  def compress(chars)
+    start = 0
+    number_ptr = 1
+    count = 0
+    (0..chars.size - 1).each do |ptr|
+      if chars[ptr] == chars[start]
+        count += 1
+      else
+        if count == 1
+          chars[number_ptr] = chars[ptr]
+          number_ptr += 1
+        elsif count > 9
+          count_str = count.to_s
+          count_str.each_char do |char|
+            chars[number_ptr] = char
+            number_ptr += 1
+          end
+          chars[number_ptr] = chars[ptr]
+          number_ptr += 1
+        else
+          chars[number_ptr] = count.to_s
+          chars[number_ptr + 1] = chars[ptr]
+          number_ptr += 2
+        end
+        start = ptr
+        count = 1
+      end
+    end
+
+    if count > 9
+      count_str = count.to_s
+      count_str.each_char do |char|
+        chars[number_ptr] = char
+        number_ptr += 1
+      end
+      number_ptr
+    elsif count != 1
+      chars[number_ptr] = count.to_s
+      number_ptr + 1
+    else
+      number_ptr
+    end
+  end
 end
 
 

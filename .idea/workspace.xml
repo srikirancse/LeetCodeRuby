@@ -15,25 +15,27 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/LeetCodeRuby@LeetCode__multiply_returns_correct_value_on_given_input__LeetCode.coverage" NAME="LeetCode #multiply returns correct value on given input: LeetCode Coverage Results" MODIFIED="1517005652550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="LeetCode" />
-    <SUITE FILE_PATH="coverage/LeetCodeRuby@LeetCode__search__LeetCode.coverage" NAME="LeetCode #search: LeetCode Coverage Results" MODIFIED="1517796066196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="LeetCode" />
     <SUITE FILE_PATH="coverage/LeetCode@leet_code.coverage" NAME="leet_code Coverage Results" MODIFIED="1510485347239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" MODULE_NAME="LeetCode" />
     <SUITE FILE_PATH="coverage/LeetCodeRuby@LeetCode__find_max_length_returns_correct_value_on_given_input__LeetCode.coverage" NAME="LeetCode #find_max_length returns correct value on given input: LeetCode Coverage Results" MODIFIED="1515564135222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="LeetCode" />
     <SUITE FILE_PATH="coverage/LeetCodeRuby@LeetCode__atoi_returns_correct_value_on_given_input__LeetCode.coverage" NAME="LeetCode #atoi returns correct value on given input: LeetCode Coverage Results" MODIFIED="1516588060732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="LeetCode" />
-    <SUITE FILE_PATH="coverage/LeetCodeRuby@LeetCode__max_sub_array_len_returns_correct_value_on_given_input__LeetCode.coverage" NAME="LeetCode #max_sub_array_len returns correct value on given input: LeetCode Coverage Results" MODIFIED="1515564207891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="LeetCode" />
-    <SUITE FILE_PATH="coverage/LeetCodeRuby@LeetCode__atoi__LeetCode.coverage" NAME="LeetCode #atoi: LeetCode Coverage Results" MODIFIED="1516587267505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="LeetCode" />
     <SUITE FILE_PATH="coverage/LeetCodeRuby@LeetCode__LeetCode.coverage" NAME="LeetCode: LeetCode Coverage Results" MODIFIED="1515530790380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="LeetCode" />
-    <SUITE FILE_PATH="coverage/LeetCodeRuby@LeetCode__max_sub_array_len__LeetCode.coverage" NAME="LeetCode #max_sub_array_len: LeetCode Coverage Results" MODIFIED="1515564216505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="LeetCode" />
     <SUITE FILE_PATH="coverage/LeetCodeRuby@LeetCode__multiply__LeetCode.coverage" NAME="LeetCode #multiply: LeetCode Coverage Results" MODIFIED="1517796057303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="LeetCode" />
     <SUITE FILE_PATH="coverage/LeetCodeRuby@LeetCode__find_max_length__LeetCode.coverage" NAME="LeetCode #find_max_length: LeetCode Coverage Results" MODIFIED="1515564088118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="LeetCode" />
-    <SUITE FILE_PATH="coverage/LeetCodeRuby@leet_code.coverage" NAME="leet_code Coverage Results" MODIFIED="1516643024571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" MODULE_NAME="LeetCode" />
+    <SUITE FILE_PATH="coverage/LeetCodeRuby@LeetCode__search__LeetCode.coverage" NAME="LeetCode #search: LeetCode Coverage Results" MODIFIED="1517796066196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="LeetCode" />
+    <SUITE FILE_PATH="coverage/LeetCodeRuby@LeetCode__compress__LeetCode.coverage" NAME="LeetCode #compress: LeetCode Coverage Results" MODIFIED="1519430403136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="LeetCode" />
+    <SUITE FILE_PATH="coverage/LeetCodeRuby@LeetCode__max_sub_array_len_returns_correct_value_on_given_input__LeetCode.coverage" NAME="LeetCode #max_sub_array_len returns correct value on given input: LeetCode Coverage Results" MODIFIED="1515564207891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="LeetCode" />
+    <SUITE FILE_PATH="coverage/LeetCodeRuby@LeetCode__atoi__LeetCode.coverage" NAME="LeetCode #atoi: LeetCode Coverage Results" MODIFIED="1516587267505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="LeetCode" />
+    <SUITE FILE_PATH="coverage/LeetCodeRuby@LeetCode__compress_returns_correct_value_on_given_input__LeetCode.coverage" NAME="LeetCode #compress returns correct value on given input: LeetCode Coverage Results" MODIFIED="1519430988457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="LeetCode" />
+    <SUITE FILE_PATH="coverage/LeetCodeRuby@LeetCode__max_sub_array_len__LeetCode.coverage" NAME="LeetCode #max_sub_array_len: LeetCode Coverage Results" MODIFIED="1515564216505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="LeetCode" />
+    <SUITE FILE_PATH="coverage/LeetCodeRuby@leet_code.coverage" NAME="leet_code Coverage Results" MODIFIED="1518720587879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" MODULE_NAME="LeetCode" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="leet_code.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/leet_code.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5247">
-              <caret line="555" column="0" lean-forward="false" selection-start-line="555" selection-start-column="0" selection-end-line="555" selection-end-column="0" />
+            <state relative-caret-position="515">
+              <caret line="707" column="5" lean-forward="true" selection-start-line="664" selection-start-column="2" selection-end-line="707" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -52,8 +54,8 @@
       <file leaf-file-name="leet_code_spec.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/leet_code_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="60" column="1" lean-forward="false" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
+            <state relative-caret-position="420">
+              <caret line="68" column="4" lean-forward="false" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -175,8 +177,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="RSpec.LeetCode #search: LeetCode">
-    <configuration name="LeetCode #atoi returns correct value on given input: LeetCode" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+  <component name="RunManager" selected="RSpec.LeetCode #compress returns correct value on given input: LeetCode">
+    <configuration name="LeetCode #compress returns correct value on given input: LeetCode" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="LeetCode" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -198,7 +200,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/leet_code_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="LeetCode #atoi returns correct value on given input" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="LeetCode #compress returns correct value on given input" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -208,7 +210,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
     </configuration>
-    <configuration name="LeetCode #multiply returns correct value on given input: LeetCode" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration name="LeetCode #compress: LeetCode" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="LeetCode" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -230,7 +232,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/leet_code_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="LeetCode #multiply returns correct value on given input" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="LeetCode #compress" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -324,18 +326,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Ruby.leet_code" />
-      <item index="1" class="java.lang.String" itemvalue="RSpec.LeetCode #atoi returns correct value on given input: LeetCode" />
-      <item index="2" class="java.lang.String" itemvalue="RSpec.LeetCode #multiply returns correct value on given input: LeetCode" />
-      <item index="3" class="java.lang.String" itemvalue="RSpec.LeetCode #search: LeetCode" />
-      <item index="4" class="java.lang.String" itemvalue="RSpec.LeetCode #multiply: LeetCode" />
+      <item index="1" class="java.lang.String" itemvalue="RSpec.LeetCode #search: LeetCode" />
+      <item index="2" class="java.lang.String" itemvalue="RSpec.LeetCode #multiply: LeetCode" />
+      <item index="3" class="java.lang.String" itemvalue="RSpec.LeetCode #compress: LeetCode" />
+      <item index="4" class="java.lang.String" itemvalue="RSpec.LeetCode #compress returns correct value on given input: LeetCode" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="RSpec.LeetCode #search: LeetCode" />
-        <item index="1" class="java.lang.String" itemvalue="RSpec.LeetCode #multiply: LeetCode" />
-        <item index="2" class="java.lang.String" itemvalue="RSpec.LeetCode #multiply returns correct value on given input: LeetCode" />
-        <item index="3" class="java.lang.String" itemvalue="Ruby.leet_code" />
-        <item index="4" class="java.lang.String" itemvalue="RSpec.LeetCode #atoi returns correct value on given input: LeetCode" />
+        <item index="0" class="java.lang.String" itemvalue="RSpec.LeetCode #compress returns correct value on given input: LeetCode" />
+        <item index="1" class="java.lang.String" itemvalue="RSpec.LeetCode #compress: LeetCode" />
+        <item index="2" class="java.lang.String" itemvalue="Ruby.leet_code" />
+        <item index="3" class="java.lang.String" itemvalue="RSpec.LeetCode #search: LeetCode" />
+        <item index="4" class="java.lang.String" itemvalue="RSpec.LeetCode #multiply: LeetCode" />
       </list>
     </recent_temporary>
   </component>
@@ -366,13 +368,13 @@
       <workItem from="1516582922610" duration="6915000" />
       <workItem from="1516740382384" duration="2855000" />
       <workItem from="1516980879520" duration="10998000" />
-      <workItem from="1517345772337" duration="16058000" />
+      <workItem from="1517345772337" duration="48825000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LeetCode_#max_sub_array_len_returns_correct_value_on_given_input__LeetCode - 2018.01.10 at 00h 01m 04s.xml">
-      <configuration name="LeetCode #max_sub_array_len returns correct value on given input: LeetCode" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="LeetCode_#compress__LeetCode - 2018.02.23 at 18h 09m 42s.xml">
+      <configuration name="LeetCode #compress: LeetCode" configurationId="RSpecRunConfigurationType" />
     </history-entry>
     <history-entry file="LeetCode_#max_sub_array_len_returns_correct_value_on_given_input__LeetCode - 2018.01.10 at 00h 03m 28s.xml">
       <configuration name="LeetCode #max_sub_array_len returns correct value on given input: LeetCode" configurationId="RSpecRunConfigurationType" />
@@ -403,7 +405,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142453000" />
+    <option name="totallyTimeSpent" value="175220000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -437,7 +439,14 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/lib/leet_code.rb</url>
+          <line>675</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -621,16 +630,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/leet_code_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="60" column="1" lean-forward="false" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
+        <state relative-caret-position="420">
+          <caret line="68" column="4" lean-forward="false" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/leet_code.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5247">
-          <caret line="555" column="0" lean-forward="false" selection-start-line="555" selection-start-column="0" selection-end-line="555" selection-end-column="0" />
+        <state relative-caret-position="515">
+          <caret line="707" column="5" lean-forward="true" selection-start-line="664" selection-start-column="2" selection-end-line="707" selection-end-column="5" />
           <folding />
         </state>
       </provider>

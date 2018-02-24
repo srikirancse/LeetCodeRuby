@@ -2,7 +2,6 @@ require 'leet_code'
 require 'byebug'
 
 describe 'LeetCode' do
-
   RSpec.configure do |c|
     c.include LeetCode
   end
@@ -60,6 +59,15 @@ describe 'LeetCode' do
 
     it 'returns correct value on given input' do
       expect(search(a, b)).to eq(result)
+    end
+  end
+
+  describe '#compress' do
+    let(:a) { %w[a b c d e f g g g g g g g g g g g g a b c] }
+    let(:result) { %w[a b c d e f g 1 2 a b c] }
+
+    it 'returns correct value on given input' do
+      expect(compress(a)).to eq(result)
     end
   end
 end
